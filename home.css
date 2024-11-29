@@ -1,0 +1,75 @@
+body{
+
+    box-sizing: border-box;
+}
+
+/* Start button design */
+.btn{
+    padding:10px 20px;
+    color:  white;
+    background-color: green ;
+    margin-left:10px;
+    text-decoration: none;
+    border:2px solid green;
+    margin-bottom: 20px;;
+}
+.btn:hover{
+    background-color:white;
+    color:black;
+}
+/* End button design */
+
+/* Start ul design */
+
+.drinks {
+    list-style-type: square;
+    margin-bottom: 20px;;
+}
+.drinks li::marker{
+color:orange;
+}
+/* End ul design */
+
+/* Start task three design  */
+.t3{
+    position: relative;
+    margin-bottom: 20px;;
+}
+.t3 img{
+    width:100px;
+    height:150px;
+    position: absolute;
+    top: -5px;
+    z-index: -1;
+}
+/* End task three design  */
+
+/* Start design Four  */
+.t4{
+    margin-top:100px;
+}
+.dropdiv{
+   margin-top: 30px;
+    width:fit-content;
+}
+.dropdiv:hover .drop{
+    display: block;
+}
+.drop{
+    list-style: none;
+    width: 100px;
+    background-color: #D3D3D3;
+    position: relative;
+    top: -4px;
+    left: 9px;
+    display: none;
+}
+.drop li{
+    padding: 10px 5px;
+    margin-left: -30px;
+}
+.drop li a {
+    text-decoration: none;
+    color: black;
+} 
+/* End design Four  */
