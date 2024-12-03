@@ -48,30 +48,29 @@ color:orange;
 
 /* Start design Four  */
 .t4{
-    margin-top:100px;
+    margin-top:150px;
 }
-.dropdiv{
-   margin-top: 30px;
-    width:fit-content;
+.cuntries{
+    display: flex;
+    flex-direction: column;
+    gap:8px;
+    width:350px;
+    background-color:#D3D3D3;
+    padding:30px 30px;
+    border-radius: 10px;;
 }
-.dropdiv:hover .drop{
-    display: block;
+.cuntries input,
+.cuntries select
+{
+    padding:10px 20px;
+    border:none;
 }
-.drop{
-    list-style: none;
-    width: 100px;
-    background-color: #D3D3D3;
-    position: relative;
-    top: -4px;
-    left: 9px;
-    display: none;
+.cuntries input[type="submit"]{
+    margin-top:10px;
+    border:none;
+    background-color:#2C8000;
+    color:white;
+    border-radius: 5px;;
+    cursor: pointer;
 }
-.drop li{
-    padding: 10px 5px;
-    margin-left: -30px;
-}
-.drop li a {
-    text-decoration: none;
-    color: black;
-} 
 /* End design Four  */
